@@ -1,0 +1,43 @@
+{
+  "name": "winkbackendapiapp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@azure/cosmos": "^3.9.5",
+    "@azure/event-hubs": "^5.4.0",
+    "@azure/storage-blob": "^12.4.1",
+    "apollo-errors": "^1.9.0",
+    "apollo-server-express": "^2.21.0",
+    "azure-iothub": "^1.13.1",
+    "body-parser": "^1.19.0",
+    "camelcase": "^6.2.0",
+    "cors": "^2.8.5",
+    "dataloader": "^2.0.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "graphql": "^15.5.0",
+    "helmet": "^4.4.1",
+    "jsonwebtoken": "^8.5.1",
+    "jwt-decode": "^3.1.2",
+    "passport": "^0.4.1",
+    "passport-azure-ad": "^4.3.0",
+    "pg": "^8.5.1",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "eslint": "^7.21.0",
+    "eslint-config-standard": "^16.0.2",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^4.3.1",
+    "npm-check": "^5.9.2"
+  }
+}

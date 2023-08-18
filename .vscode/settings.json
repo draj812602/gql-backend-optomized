@@ -1,0 +1,8 @@
+{
+    "appService.zipIgnorePattern": [
+        "node_modules{,/**}",
+        ".vscode{,/**}"
+    ],
+    "appService.defaultWebAppToDeploy": "/subscriptions/d8f6d617-3fcb-4721-b1fe-db6d8cb397ff/resourceGroups/Wink_solution/providers/Microsoft.Web/sites/winkBackendDashboardApi",
+    "appService.deploySubpath": "."
+}
